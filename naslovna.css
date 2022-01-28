@@ -1,0 +1,62 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+			
+body {
+		background-image: url("images/skola.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		font-family: Arial, Verdana, sans-serif;
+}
+			
+#profesori {
+			float: left;
+			width: 1000px;
+			margin: 20px;
+}
+			
+#ucionice {
+			float: left;
+			width: 500px;
+			margin: 20px;
+}
+			
+#profesori button {
+				margin: 15px;
+				background: #ffffff;
+				color: #000000;
+				width: 200px;
+				border: 2px solid #000000;
+				cursor: pointer;
+				border-radius: 5px;
+				padding: 5px 5px;
+				font-weight: bold;
+				font-size: 14px;
+}
+			
+#ucionice button {
+				margin: 15px;
+				background: #ffffff;
+				color: #000000;
+				width: 100px;
+				border: 2px solid #000000;
+				cursor: pointer;
+				border-radius: 5px;
+				padding: 5px 5px;
+				font-weight: bold;
+				font-size: 14px;
+				float: left;
+}
+
+#profesori h1 {
+				color: #ffffff;
+				padding-left: 20px;
+				padding-top: 20px;
+}
+
+#ucionice h1 {
+				color: #ffffff;
+				padding-left: 20px;
+				padding-top: 20px;
+}

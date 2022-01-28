@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("../images/skola.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+	color: #ffffff;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#buttons button {
+	margin: 15px;
+	margin-left: 180px;
+	background: #ffffff;
+	color: #000000;
+	width: 200px;
+	height: 50px;
+	border: 2px solid #000000;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: 14px;
+	float: left;
+}
+
+#buttons{
+	width: 800px;
+	height: 200px;
+	margin: 15px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:visited {
+	color: black;
+}
+
+table {
+	margin: 15px;
+	color: white;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+	background-color: rgba(0, 134, 179, 0.7);
+	width: 110px;
+}
+
+td {
+	border: 2px solid white;
+	text-align: center;
+	border-right: none;
+}
+
+th {
+	border-bottom: 2px solid white;
+	background-color: #000088;
+}
+
+tr.head th{
+	border-right: 2px solid white;
+	border-bottom: 3px solid white;
+	background-color: #000088;
+	text-align: center;
+}
+
+tr.head th:first-child {
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+}
+
+tr.head th:last-child {
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+	border-right: none;
+}
+
+tr.even {
+	background-color: rgba(0, 134, 179, 1);
+}
+
+tr.smjena {
+	border-bottom: 4px dashed white;
+}
+
+tr th.sati {
+	padding-left: 4px;
+	padding-right: 2px;
+	text-align: left;
+}
